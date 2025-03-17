@@ -50,7 +50,7 @@ def run_bruteforce_script(support_name, constants, script_path):
 def main():
     file_path = 'References.txt'
     # Specify the full path for HI-SISSO.py
-    script_path = r'C:\Users\amit_\PycharmProjects\compchem\Hubbard Projectors\Scripts\First-principles Approach\HI-SISSO.py'
+    script_path = r'C:\Users\Dell\PycharmProjects\Hubbardprojectors\Scripts\First-principles Approach\HI-SISSO.py'
 
     headers, constants = extract_constants(file_path)
 
