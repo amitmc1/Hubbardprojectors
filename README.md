@@ -1,6 +1,6 @@
-# Machine learning generalised DFT+U projectors
+# Machine learning generalised DFT+<em>U</em> projectors
 
-This repository contains data from the publication (under review): Machine learning generalised DFT+U projectors to model polarons in a numeric atom-centred orbital framework
+This repository contains data from the publication (under review): Machine learning generalised DFT+<em>U</em> projectors to model polarons in a numeric atom-centred orbital framework
 
 <p align="center">
   <img src="Overview.png" width="800" />
@@ -8,7 +8,13 @@ This repository contains data from the publication (under review): Machine learn
   <em>Tuning Hubbard projectors as a linear combination of numeric atom-centred orbital basis functions, for the simulation of polarons in strongly correlated metal oxides.</em>
 </p>
 
-# Semi-empirical approach: symbolic regression, support vector machines and Bayesian optimisation
+# Semi-empirical approach
+
+<p align="center">
+  <img src="Semiempirical" width="800" />
+  <br>
+  <em>Integrating symbolic regression, support vector machines and Bayesian optimisation to optimise the Ti 3<em>d</em> Hubbard <em>U</em> value and projectors.</em>
+</p>
 
 
 
@@ -16,6 +22,4 @@ This repository contains data from the publication (under review): Machine learn
 
 
 
-
-
-# First-principles approach: hierarchical symbolic regression
+# First-principles approach
