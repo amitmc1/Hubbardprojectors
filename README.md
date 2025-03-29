@@ -7,3 +7,15 @@ This repository contains data from the publication (under review): Machine learn
   <br>
   <em>Tuning Hubbard projectors as a linear combination of numeric atom-centred orbital basis functions, for the simulation of polarons in strongly correlated metal oxides.</em>
 </p>
+
+# Semi-empirical approach: symbolic regression, support vector machines and Bayesian optimisation
+
+
+
+
+
+
+
+
+
+# First-principles approach: hierarchical symbolic regression
