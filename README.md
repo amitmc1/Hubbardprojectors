@@ -24,6 +24,6 @@
   <p align="center">
     <img src="First_principles.png" width="800" />
     <br>
-    <em>Integrating symbolic regression, support vector machines and Bayesian optimisation to optimise the Ti 3<em>d</em> Hubbard <em>U</em> value and projectors.</em>
+    <em>Developing a first-principles workflow for optimising Hubbard <em>U</em> values and projectors using hierarchical symbolic regression.</em>
   </p>
 </div>
