@@ -18,8 +18,10 @@ This repository contains data from the publication (under review): Machine learn
 
 
 
-
-
-
-
 # First-principles approach
+
+<p align="center">
+  <img src="First_principles.png" width="800" />
+  <br>
+  <em>Integrating symbolic regression, support vector machines and Bayesian optimisation to optimise the Ti 3<em>d</em> Hubbard <em>U</em> value and projectors.</em>
+</p>
