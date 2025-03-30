@@ -13,7 +13,7 @@
 <div style="border: 2px solid #000; padding: 10px; margin-bottom: 20px;">
   <h1 align="center">Semi-empirical approach</h1>
 
-  `Scripts/Semi-empirical Approach/Bayesian.py` contains a script to optimise the Ti 3<sub>d</sub> Hubbard <em>U</em> value and projector for anatase TiO<sub>2</sub> using Bayesian optimisation with a cost function defined using symbolic regression and constraints defined using support vector machines.
+  `Scripts/Semi-empirical Approach/Bayesian.py` contains a script to optimise the Ti 3<em>d</em> Hubbard <em>U</em> value and projector for anatase TiO<sub>2</sub> using Bayesian optimisation with a cost function defined using symbolic regression and constraints defined using support vector machines.
   
   <p align="center">
     <img src="Semiempirical.png" width="800" />
