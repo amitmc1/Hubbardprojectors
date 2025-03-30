@@ -24,7 +24,9 @@
 
 <div style="border: 2px solid #000; padding: 10px; margin-bottom: 20px;">
   <h1 align="center">First-principles approach</h1>
-  `Scripts/First-principles Approach/Screening/References.txt` contains all requirements for screening the the Hubbard <em>U</em> values and projectors of different materials
+  
+  `Scripts/First-principles Approach/Screening/References.txt` contains all requirements for screening the the Hubbard <em>U</em> values and projectors of different materials.
+  
   `Scripts/First-principles Approach/Screening/HI-SISSO.py` contains hierarchical symbolic regression-defined expressions to calculate DFT+U-predicted orbital occupancies for the materials specified in `Scripts/First-principles Approach/Screening/References.txt`
   `Scripts/First-principles Approach/Screening/screen_materials.py` uses `Scripts/First-principles Approach/Screening/HI-SISSO.py` to perform a linear search of the cost function for all materials specified in `Scripts/First-principles Approach/Screening/References.txt`
   `Scripts/First-principles Approach/Screening/Familyofsolutions.py` uses the outputs from `Scripts/First-principles Approach/Screening/screen_materials.py` to plot the Hubbard <em>U</em> value and projector coefficients c<sub>1</sub> and <sub>2</sub> that minimise the cost function, for each material specified in `Scripts/First-principles Approach/Screening/References.txt`
