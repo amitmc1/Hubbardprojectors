@@ -8,8 +8,8 @@ np.random.seed(42)
 DSS_ref = 1
 BG_ref = 3.2
 v0_ref = 136.278
-ref_3d= 1.24774
-ref_2p= 4.66316
+ref_3d= 1.24759
+ref_2p= 4.66393
 
 # Defining constants for normalising U, c1 and c2
 U_min = 0.5
