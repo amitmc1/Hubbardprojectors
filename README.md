@@ -1,7 +1,7 @@
 <div style="border: 2px solid #000; padding: 10px; margin-bottom: 20px;">
   <h1 align="center">Machine learning generalised DFT+<em>U</em> projectors</h1>
   <p align="center">
-    This repository contains data from the publication (under review): Machine learning generalised DFT+<em>U</em> projectors in a numeric atom-centred orbital framework
+    This repository contains data from the publication (under review): Machine learning generalised DFT+<em>U</em> projectors in a numerical atom-centred orbital framework
   </p>
   <p align="center">
     <img src="Overview.png" width="800" />
