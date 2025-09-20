@@ -29,9 +29,11 @@
   
   `Scripts/First-principles Approach/Screening/HI-SISSO.py` contains hierarchical symbolic regression-defined expressions to calculate DFT+<em>U</em>-predicted orbital occupancies for the materials specified in `Scripts/First-principles Approach/Screening/References.txt`.
   
-  `Scripts/First-principles Approach/Screening/screen_materials.py` uses `Scripts/First-principles Approach/Screening/HI-SISSO.py` to perform a linear search of the cost function for all materials specified in `Scripts/First-principles Approach/Screening/References.txt`.
+  `Scripts/First-principles Approach/Screening/screen_materials.py` uses `Scripts/First-principles Approach/Screening/HI-SISSO.py` to perform a linear search of the Hubbard parameter space for all materials specified in `Scripts/First-principles Approach/Screening/References.txt`, whilst evaluating the predicted orbital occupancies using HI-SISSO.py and saving new files {material}_results.txt
+
+  `Scripts/First-principles Approach/Screening/Cost_function.py` uses `Scripts/First-principles Approach/Screening/HI-SISSO.py` and each {material}_results.txt file to evaluate the first-principles cost function for each screened combination of Hubbard parameters for all materials in `Scripts/First-principles Approach/Screening/References.txt` and saving new corresponding files {material}_with_JFP.txt
   
-  `Scripts/First-principles Approach/Screening/Familyofsolutions.py` uses the outputs from `Scripts/First-principles Approach/Screening/screen_materials.py` to plot the Hubbard <em>U</em> value and projector coefficients <em>c<sub>1</sub></em> and <em>c<sub>2</sub></em> that minimise the cost function, for each material specified in `Scripts/First-principles Approach/Screening/References.txt`.
+  `Scripts/First-principles Approach/Screening/Familyofsolutions.py` uses the outputs from `Scripts/First-principles Approach/Screening/screen_materials.py` to plot the Hubbard <em>U</em> value and projector coefficients <em>c<sub>1</sub></em> and <em>c<sub>2</sub></em> that minimise the cost function, for each material in `Scripts/First-principles Approach/Screening/References.txt`.
   
   <p align="center">
     <img src="First_principles.png" width="800" />
