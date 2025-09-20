@@ -1,3 +1,10 @@
+#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 D O I: 10.26434/chemrxiv-2025-332z0
+#This script is used in Section 3.2, to perform Bayesian optimisation of the Ti 3d Hubbard U value and projector (defined by linear expansion coefficients HUBC1 and HUBC2) for anatase TiO2 in FHI-aims. 
+#Bayesian optimisation is performed to minimise a cost function defined using empirical correlations from symbolic regression (SISSO), whilst satisfying constrained defined using support vector machines (SVMs)
+#The functions that are used in evaluating the cost function are calculate_band_gap and calculate_v0
+#The functions that are used in evaluating the SVM constraints are calculate_tr_3d_norm and calculate_tr_2p_norm
+#Latin hypercube sampling then Bayesian optimisation is used to refine U, HUBC1 and HUBC2 to minimise and cost function, whilst satisfying the constraints. If a constraint is violated, the cost function is returned as 1000
+
 import numpy as np
 import GPyOpt
 from scipy.stats import qmc
