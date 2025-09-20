@@ -1,3 +1,7 @@
+#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 DOI: 10.26434/chemrxiv-2025-332z0
+#This script is used in Section 3.3.4, to perform a linear search of the first-principle cost function (J_FP) for all materials specified in References.txt
+#The linear search of J_FP uses empirical correlations for DFT+U-predicted O 2p orbital occupancies computed using hierarchical symbolic regression, as defined in HI-SISSO.py
+
 import csv
 import subprocess
 
