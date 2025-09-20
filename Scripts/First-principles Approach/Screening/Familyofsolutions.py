@@ -1,3 +1,6 @@
+#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 DOI: 10.26434/chemrxiv-2025-332z0
+#This script is used in Section 3.3.2, to use the outputs from screen_materials.py to plot the Hubbard U value and projector coefficients c1 and c2 that minimise the cost function (J_FP) for each material in References.txt
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
