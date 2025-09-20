@@ -2,7 +2,6 @@
 #This script is used in Section 3.3.4, to perform a linear search of the first-principle cost function (J_FP) for all materials specified in References.txt
 #The linear search of J_FP uses empirical correlations for O 2p orbital occupancies computed using hierarchical symbolic regression, as defined in HI-SISSO.py
 
-
 import pandas as pd
 import numpy as np
 
