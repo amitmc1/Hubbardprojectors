@@ -5,7 +5,6 @@
 import pandas as pd
 import numpy as np
 
-
 def calculate_j_fp(row, results):
     # Extract SISSO values from results
     sisso_p1_2 = results['SISSO_p1_2']
