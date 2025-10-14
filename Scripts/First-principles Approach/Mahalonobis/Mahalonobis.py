@@ -1,4 +1,4 @@
-#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 DOI: 10.26434/chemrxiv-2025-332z0
+#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 
 #This script is used in Section 3.3.2, to compute the average Mahalonobis distance per material, i.e., the average similarity between the primary feature vectors for each material, to see whether this is related to the dataset size in Figure 14.
 
 import pandas as pd
