@@ -1,4 +1,4 @@
-#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 DOI: 10.26434/chemrxiv-2025-332z0
+#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0
 #This script is used in Section 3.3.2, to define empirical correlations for DFT+U-predicted O 2p orbital occupancies for the materials listed in References.txt
 #The empirical correlations are computed using hierarchical symbolic regression, using a two step fitting procedure. "sisso" functions correspond to step 1, and "SISSO" functions correspond to step 2
 
