@@ -1,5 +1,5 @@
-#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 DOI: 10.26434/chemrxiv-2025-332z0
-#This script is used in Section 3.3.4, to perform a linear search of the Hubbard parameter space for all materials in References.txt 
+#This script is from the ChemRxiv pre-print "Machine learning generalised DFT+U projectors in a numerical atom-centred orbital framework" at the DOI 10.26434/chemrxiv-2025-332z0 
+#This script is used in Section 3.3.2, to perform a linear search of the Hubbard parameter space for all materials in References.txt 
 #For each screened combination of Hubbard parameters, DFT+U-predicted orbital occupancies are predicted using empirical correlations from hierarchical symbolic regression, as defined in HI-SISSO.py, and are saved in a new file {material}_results.txt
 
 import csv
