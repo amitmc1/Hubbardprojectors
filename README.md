@@ -15,7 +15,7 @@
   <p align="center">
     <img src="Overview.png" width="800" />
     <br>
-    <em>Tuning Hubbard projectors as a linear combination of numeric atom-centred orbital basis functions, for the simulation of polarons in strongly correlated metal oxides.</em>
+    <em>Tuning Hubbard projectors as a linear combination of numerical atom-centred orbital basis functions, for the simulation of polarons in strongly correlated metal oxides.</em>
   </p>
 
 <div style="border: 2px solid #000; padding: 10px; margin-bottom: 20px;">
