@@ -13,7 +13,7 @@
   <h1 align="center">Overview</h1>
   
   <p align="center">
-    <img src="Overview.png" width="800" />
+    <img src="Projector_Overview.png" width="800" />
     <br>
     <em>Tuning Hubbard projectors as a linear combination of numerical atom-centred orbital basis functions, for the simulation of polarons in strongly correlated metal oxides.</em>
   </p>
