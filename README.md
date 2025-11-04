@@ -3,7 +3,7 @@
 
   <ul style="list-style-position: inside; text-align: center; padding: 0; margin: 10px 0;">
     <li style="margin-bottom: 8px;">
-      This repository contains research code for the ChemRxiv manuscript: <a href="https://doi.org/10.26434/chemrxiv-2025-332z0" target="_blank" style="text-decoration: none; font-weight: bold; color: black;">
+      This repository contains research code for the Digital Discovery article <a href="https://doi.org/10.1039/D5DD00292C" target="_blank" style="text-decoration: none; font-weight: bold; color: black;">
         Machine learning generalised DFT+<em>U</em> projectors in a numerical atom-centred orbital framework
     </li>
   </ul>
